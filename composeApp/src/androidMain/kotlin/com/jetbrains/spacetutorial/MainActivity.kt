@@ -1,13 +1,10 @@
-package org.example.project
+package com.jetbrains.spacetutorial
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.tooling.preview.Preview
-import com.jetbrains.spacetutorial.App
 
-class MainActivity : ComponentActivity() {
+class MainActivity : ComponentActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -15,10 +12,4 @@ class MainActivity : ComponentActivity() {
             App()
         }
     }
-}
-
-@Preview
-@Composable
-fun AppAndroidPreview() {
-    App()
 }
